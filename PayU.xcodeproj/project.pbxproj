@@ -21,6 +21,8 @@
 		D59605BA1AFE870E00E18548 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59605B61AFE870E00E18548 /* UIViewController+MMDrawerController.m */; };
 		D59605BD1AFE8D3100E18548 /* nav_360.png in Resources */ = {isa = PBXBuildFile; fileRef = D59605BC1AFE8D3100E18548 /* nav_360.png */; };
 		D59605C11AFE8DE500E18548 /* CustomNavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59605C01AFE8DE500E18548 /* CustomNavTableViewCell.swift */; };
+		D59605C31AFE913F00E18548 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59605C21AFE913F00E18548 /* PortfolioViewController.swift */; };
+		D59605C51AFE915800E18548 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59605C41AFE915800E18548 /* LeaderboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		D59605B61AFE870E00E18548 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
 		D59605BC1AFE8D3100E18548 /* nav_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_360.png; sourceTree = "<group>"; };
 		D59605C01AFE8DE500E18548 /* CustomNavTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavTableViewCell.swift; sourceTree = "<group>"; };
+		D59605C21AFE913F00E18548 /* PortfolioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		D59605C41AFE915800E18548 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				D52364C51AFE7B3F00A49DBB /* ViewController.swift */,
 				D52364C71AFE7B3F00A49DBB /* Main.storyboard */,
 				D59605AA1AFE859F00E18548 /* NavigationDrawerViewController.swift */,
+				D59605C21AFE913F00E18548 /* PortfolioViewController.swift */,
+				D59605C41AFE915800E18548 /* LeaderboardViewController.swift */,
 				D59605C01AFE8DE500E18548 /* CustomNavTableViewCell.swift */,
 				D52364CA1AFE7B3F00A49DBB /* Images.xcassets */,
 				D52364CC1AFE7B3F00A49DBB /* LaunchScreen.xib */,
@@ -267,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D59605B91AFE870E00E18548 /* MMDrawerVisualState.m in Sources */,
+				D59605C31AFE913F00E18548 /* PortfolioViewController.swift in Sources */,
+				D59605C51AFE915800E18548 /* LeaderboardViewController.swift in Sources */,
 				D52364C61AFE7B3F00A49DBB /* ViewController.swift in Sources */,
 				D59605C11AFE8DE500E18548 /* CustomNavTableViewCell.swift in Sources */,
 				D59605BA1AFE870E00E18548 /* UIViewController+MMDrawerController.m in Sources */,

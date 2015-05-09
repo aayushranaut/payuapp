@@ -45,5 +45,42 @@ class NavigationDrawerViewController: UIViewController, UITableViewDataSource, U
         
         return cell
     }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        switch(indexPath.row) {
+        case 0:
+            var centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+            
+            var centerNavController = UINavigationController(rootViewController: centerViewController)
+            
+            var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+            appDelegate.centerContainer!.centerViewController = centerNavController
+            appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
+
+            break;
+        case 1:
+            var centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PortfolioController") as! ViewController
+            
+            var centerNavController = UINavigationController(rootViewController: centerViewController)
+            
+            var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+            appDelegate.centerContainer!.centerViewController = centerNavController
+            appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
+            
+            break;
+        case 2:
+            var centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("LeaderboardController") as! ViewController
+            
+            var centerNavController = UINavigationController(rootViewController: centerViewController)
+            
+            var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+            appDelegate.centerContainer!.centerViewController = centerNavController
+            appDelegate.centerContainer!.toggleDrawerSide(MMDrawerSide.Left, animated: true, completion: nil)
+            
+            break;
+        default:
+            println("Sim")
+        }
+    }
 
 }
