@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D52364C41AFE7B3F00A49DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52364C31AFE7B3F00A49DBB /* AppDelegate.swift */; };
+		D52364C61AFE7B3F00A49DBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52364C51AFE7B3F00A49DBB /* ViewController.swift */; };
+		D52364C91AFE7B3F00A49DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52364C71AFE7B3F00A49DBB /* Main.storyboard */; };
+		D52364CB1AFE7B3F00A49DBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52364CA1AFE7B3F00A49DBB /* Images.xcassets */; };
+		D52364CE1AFE7B3F00A49DBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52364CC1AFE7B3F00A49DBB /* LaunchScreen.xib */; };
+		D52364DA1AFE7B3F00A49DBB /* PayUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52364D91AFE7B3F00A49DBB /* PayUTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D52364D41AFE7B3F00A49DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52364B61AFE7B3F00A49DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52364BD1AFE7B3F00A49DBB;
+			remoteInfo = PayU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D52364BE1AFE7B3F00A49DBB /* PayU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52364C21AFE7B3F00A49DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52364C31AFE7B3F00A49DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D52364C51AFE7B3F00A49DBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D52364C81AFE7B3F00A49DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D52364CA1AFE7B3F00A49DBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D52364CD1AFE7B3F00A49DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D52364D31AFE7B3F00A49DBB /* PayUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52364D81AFE7B3F00A49DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52364D91AFE7B3F00A49DBB /* PayUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayUTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D52364BB1AFE7B3F00A49DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52364D01AFE7B3F00A49DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D52364B51AFE7B3F00A49DBB = {
+			isa = PBXGroup;
+			children = (
+				D52364C01AFE7B3F00A49DBB /* PayU */,
+				D52364D61AFE7B3F00A49DBB /* PayUTests */,
+				D52364BF1AFE7B3F00A49DBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D52364BF1AFE7B3F00A49DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52364BE1AFE7B3F00A49DBB /* PayU.app */,
+				D52364D31AFE7B3F00A49DBB /* PayUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D52364C01AFE7B3F00A49DBB /* PayU */ = {
+			isa = PBXGroup;
+			children = (
+				D52364C31AFE7B3F00A49DBB /* AppDelegate.swift */,
+				D52364C51AFE7B3F00A49DBB /* ViewController.swift */,
+				D52364C71AFE7B3F00A49DBB /* Main.storyboard */,
+				D52364CA1AFE7B3F00A49DBB /* Images.xcassets */,
+				D52364CC1AFE7B3F00A49DBB /* LaunchScreen.xib */,
+				D52364C11AFE7B3F00A49DBB /* Supporting Files */,
+			);
+			path = PayU;
+			sourceTree = "<group>";
+		};
+		D52364C11AFE7B3F00A49DBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52364C21AFE7B3F00A49DBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D52364D61AFE7B3F00A49DBB /* PayUTests */ = {
+			isa = PBXGroup;
+			children = (
+				D52364D91AFE7B3F00A49DBB /* PayUTests.swift */,
+				D52364D71AFE7B3F00A49DBB /* Supporting Files */,
+			);
+			path = PayUTests;
+			sourceTree = "<group>";
+		};
+		D52364D71AFE7B3F00A49DBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52364D81AFE7B3F00A49DBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D52364BD1AFE7B3F00A49DBB /* PayU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52364DD1AFE7B3F00A49DBB /* Build configuration list for PBXNativeTarget "PayU" */;
+			buildPhases = (
+				D52364BA1AFE7B3F00A49DBB /* Sources */,
+				D52364BB1AFE7B3F00A49DBB /* Frameworks */,
+				D52364BC1AFE7B3F00A49DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayU;
+			productName = PayU;
+			productReference = D52364BE1AFE7B3F00A49DBB /* PayU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D52364D21AFE7B3F00A49DBB /* PayUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52364E01AFE7B3F00A49DBB /* Build configuration list for PBXNativeTarget "PayUTests" */;
+			buildPhases = (
+				D52364CF1AFE7B3F00A49DBB /* Sources */,
+				D52364D01AFE7B3F00A49DBB /* Frameworks */,
+				D52364D11AFE7B3F00A49DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D52364D51AFE7B3F00A49DBB /* PBXTargetDependency */,
+			);
+			name = PayUTests;
+			productName = PayUTests;
+			productReference = D52364D31AFE7B3F00A49DBB /* PayUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D52364B61AFE7B3F00A49DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Prathmesh Ranaut";
+				TargetAttributes = {
+					D52364BD1AFE7B3F00A49DBB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D52364D21AFE7B3F00A49DBB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D52364BD1AFE7B3F00A49DBB;
+					};
+				};
+			};
+			buildConfigurationList = D52364B91AFE7B3F00A49DBB /* Build configuration list for PBXProject "PayU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D52364B51AFE7B3F00A49DBB;
+			productRefGroup = D52364BF1AFE7B3F00A49DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D52364BD1AFE7B3F00A49DBB /* PayU */,
+				D52364D21AFE7B3F00A49DBB /* PayUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D52364BC1AFE7B3F00A49DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52364C91AFE7B3F00A49DBB /* Main.storyboard in Resources */,
+				D52364CE1AFE7B3F00A49DBB /* LaunchScreen.xib in Resources */,
+				D52364CB1AFE7B3F00A49DBB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52364D11AFE7B3F00A49DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D52364BA1AFE7B3F00A49DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52364C61AFE7B3F00A49DBB /* ViewController.swift in Sources */,
+				D52364C41AFE7B3F00A49DBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52364CF1AFE7B3F00A49DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52364DA1AFE7B3F00A49DBB /* PayUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D52364D51AFE7B3F00A49DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52364BD1AFE7B3F00A49DBB /* PayU */;
+			targetProxy = D52364D41AFE7B3F00A49DBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D52364C71AFE7B3F00A49DBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52364C81AFE7B3F00A49DBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D52364CC1AFE7B3F00A49DBB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52364CD1AFE7B3F00A49DBB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D52364DB1AFE7B3F00A49DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D52364DC1AFE7B3F00A49DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D52364DE1AFE7B3F00A49DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D52364DF1AFE7B3F00A49DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D52364E11AFE7B3F00A49DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PayUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayU.app/PayU";
+			};
+			name = Debug;
+		};
+		D52364E21AFE7B3F00A49DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PayUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayU.app/PayU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D52364B91AFE7B3F00A49DBB /* Build configuration list for PBXProject "PayU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52364DB1AFE7B3F00A49DBB /* Debug */,
+				D52364DC1AFE7B3F00A49DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52364DD1AFE7B3F00A49DBB /* Build configuration list for PBXNativeTarget "PayU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52364DE1AFE7B3F00A49DBB /* Debug */,
+				D52364DF1AFE7B3F00A49DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D52364E01AFE7B3F00A49DBB /* Build configuration list for PBXNativeTarget "PayUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52364E11AFE7B3F00A49DBB /* Debug */,
+				D52364E21AFE7B3F00A49DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D52364B61AFE7B3F00A49DBB /* Project object */;
+}
