@@ -13,6 +13,14 @@
 		D52364CB1AFE7B3F00A49DBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52364CA1AFE7B3F00A49DBB /* Images.xcassets */; };
 		D52364CE1AFE7B3F00A49DBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52364CC1AFE7B3F00A49DBB /* LaunchScreen.xib */; };
 		D52364DA1AFE7B3F00A49DBB /* PayUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52364D91AFE7B3F00A49DBB /* PayUTests.swift */; };
+		D52364E61AFE7F9800A49DBB /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D52364E51AFE7F9800A49DBB /* Entitlements.plist */; };
+		D59605AB1AFE859F00E18548 /* NavigationDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59605AA1AFE859F00E18548 /* NavigationDrawerViewController.swift */; };
+		D59605B71AFE870E00E18548 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D59605AF1AFE870E00E18548 /* MMDrawerBarButtonItem.m */; };
+		D59605B81AFE870E00E18548 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59605B11AFE870E00E18548 /* MMDrawerController.m */; };
+		D59605B91AFE870E00E18548 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = D59605B41AFE870E00E18548 /* MMDrawerVisualState.m */; };
+		D59605BA1AFE870E00E18548 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59605B61AFE870E00E18548 /* UIViewController+MMDrawerController.m */; };
+		D59605BD1AFE8D3100E18548 /* nav_360.png in Resources */ = {isa = PBXBuildFile; fileRef = D59605BC1AFE8D3100E18548 /* nav_360.png */; };
+		D59605C11AFE8DE500E18548 /* CustomNavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59605C01AFE8DE500E18548 /* CustomNavTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,20 @@
 		D52364D31AFE7B3F00A49DBB /* PayUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52364D81AFE7B3F00A49DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D52364D91AFE7B3F00A49DBB /* PayUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayUTests.swift; sourceTree = "<group>"; };
+		D52364E51AFE7F9800A49DBB /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		D59605AA1AFE859F00E18548 /* NavigationDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawerViewController.swift; sourceTree = "<group>"; };
+		D59605AD1AFE870E00E18548 /* PayU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayU-Bridging-Header.h"; sourceTree = "<group>"; };
+		D59605AE1AFE870E00E18548 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		D59605AF1AFE870E00E18548 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		D59605B01AFE870E00E18548 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		D59605B11AFE870E00E18548 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		D59605B21AFE870E00E18548 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		D59605B31AFE870E00E18548 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		D59605B41AFE870E00E18548 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		D59605B51AFE870E00E18548 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		D59605B61AFE870E00E18548 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		D59605BC1AFE8D3100E18548 /* nav_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_360.png; sourceTree = "<group>"; };
+		D59605C01AFE8DE500E18548 /* CustomNavTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +81,7 @@
 		D52364B51AFE7B3F00A49DBB = {
 			isa = PBXGroup;
 			children = (
+				D52364E51AFE7F9800A49DBB /* Entitlements.plist */,
 				D52364C01AFE7B3F00A49DBB /* PayU */,
 				D52364D61AFE7B3F00A49DBB /* PayUTests */,
 				D52364BF1AFE7B3F00A49DBB /* Products */,
@@ -77,9 +100,13 @@
 		D52364C01AFE7B3F00A49DBB /* PayU */ = {
 			isa = PBXGroup;
 			children = (
+				D59605AC1AFE86FA00E18548 /* SideMenu */,
+				D59605BB1AFE8CF300E18548 /* images */,
 				D52364C31AFE7B3F00A49DBB /* AppDelegate.swift */,
 				D52364C51AFE7B3F00A49DBB /* ViewController.swift */,
 				D52364C71AFE7B3F00A49DBB /* Main.storyboard */,
+				D59605AA1AFE859F00E18548 /* NavigationDrawerViewController.swift */,
+				D59605C01AFE8DE500E18548 /* CustomNavTableViewCell.swift */,
 				D52364CA1AFE7B3F00A49DBB /* Images.xcassets */,
 				D52364CC1AFE7B3F00A49DBB /* LaunchScreen.xib */,
 				D52364C11AFE7B3F00A49DBB /* Supporting Files */,
@@ -110,6 +137,31 @@
 				D52364D81AFE7B3F00A49DBB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D59605AC1AFE86FA00E18548 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D59605AE1AFE870E00E18548 /* MMDrawerBarButtonItem.h */,
+				D59605AF1AFE870E00E18548 /* MMDrawerBarButtonItem.m */,
+				D59605B01AFE870E00E18548 /* MMDrawerController.h */,
+				D59605B11AFE870E00E18548 /* MMDrawerController.m */,
+				D59605B21AFE870E00E18548 /* MMDrawerController+Subclass.h */,
+				D59605B31AFE870E00E18548 /* MMDrawerVisualState.h */,
+				D59605B41AFE870E00E18548 /* MMDrawerVisualState.m */,
+				D59605B51AFE870E00E18548 /* UIViewController+MMDrawerController.h */,
+				D59605B61AFE870E00E18548 /* UIViewController+MMDrawerController.m */,
+				D59605AD1AFE870E00E18548 /* PayU-Bridging-Header.h */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
+		D59605BB1AFE8CF300E18548 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D59605BC1AFE8D3100E18548 /* nav_360.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52364E61AFE7F9800A49DBB /* Entitlements.plist in Resources */,
 				D52364C91AFE7B3F00A49DBB /* Main.storyboard in Resources */,
 				D52364CE1AFE7B3F00A49DBB /* LaunchScreen.xib in Resources */,
+				D59605BD1AFE8D3100E18548 /* nav_360.png in Resources */,
 				D52364CB1AFE7B3F00A49DBB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59605B91AFE870E00E18548 /* MMDrawerVisualState.m in Sources */,
 				D52364C61AFE7B3F00A49DBB /* ViewController.swift in Sources */,
+				D59605C11AFE8DE500E18548 /* CustomNavTableViewCell.swift in Sources */,
+				D59605BA1AFE870E00E18548 /* UIViewController+MMDrawerController.m in Sources */,
+				D59605B81AFE870E00E18548 /* MMDrawerController.m in Sources */,
+				D59605B71AFE870E00E18548 /* MMDrawerBarButtonItem.m in Sources */,
+				D59605AB1AFE859F00E18548 /* NavigationDrawerViewController.swift in Sources */,
 				D52364C41AFE7B3F00A49DBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +332,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -316,7 +378,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -340,9 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PayU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayU/PayU-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +418,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PayU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayU/PayU-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +480,7 @@
 				D52364DF1AFE7B3F00A49DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D52364E01AFE7B3F00A49DBB /* Build configuration list for PBXNativeTarget "PayUTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +489,7 @@
 				D52364E21AFE7B3F00A49DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
