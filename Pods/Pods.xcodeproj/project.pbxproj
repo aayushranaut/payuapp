@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0908BAB690EBF2618BCAE415 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC85026B286F7CE5E3E9C74 /* Alamofire.swift */; };
+		12E6EED5921985EA3948FB56 /* Pods-PayU-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED46F04241F3BE5084C609 /* Pods-PayU-SwiftyJSON-dummy.m */; };
+		4873D223842A80D859F054BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1D84EFEB106E3E5D723623 /* Foundation.framework */; };
+		64AE64E6D9129AEB7C10B311 /* Pods-PayU-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A7F778D0FB7061A20B4585 /* Pods-PayU-Alamofire-dummy.m */; };
+		6A01D3F16380BD0A414ECE77 /* Pods-PayU-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAD3F7C35AEF890AAE2F2A3 /* Pods-PayU-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D7E4F53F3D2B335E7D8DC92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1D84EFEB106E3E5D723623 /* Foundation.framework */; };
+		9082C09F10F16B5F9CC6F20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1D84EFEB106E3E5D723623 /* Foundation.framework */; };
+		D747E5B47F3C3E739FC79280 /* Pods-PayU-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D63A5C37F1F33E11D1E24455 /* Pods-PayU-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FC6B06D3AB59C9F75CD914 /* Pods-PayU-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C01A17CB7BBF00BF69A8D /* Pods-PayU-dummy.m */; };
+		ECABF1872A0512E58C9F5120 /* Pods-PayU-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3016D9E257E84A66F2338F /* Pods-PayU-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEF0924FE56F459D0E761DBC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A76E443BEA711DBEBAA04 /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		756E90811D1B256B29518780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87DB53348852E6080ED4C3C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F8DFA6AD5A0EEAB9B553D4;
+			remoteInfo = "Pods-PayU-Alamofire";
+		};
+		BEAF1251EF4B91B37FB01085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87DB53348852E6080ED4C3C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61468413DA22781DCA0EDDC;
+			remoteInfo = "Pods-PayU-SwiftyJSON";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AADE673857B8544846D4A5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC85026B286F7CE5E3E9C74 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		1CBAF3569007D8464099CFB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF7300F08C90368B303FDE7 /* Pods-PayU-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayU-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		26C8EA4C3F3C304720C4B9F8 /* Pods-PayU-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayU-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		32AB4DA099DE0E06F28E0851 /* Pods-PayU.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PayU.modulemap"; sourceTree = "<group>"; };
+		3A03FEB46866952A00846D00 /* Pods-PayU-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayU-environment.h"; sourceTree = "<group>"; };
+		451A76E443BEA711DBEBAA04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		49ED46F04241F3BE5084C609 /* Pods-PayU-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayU-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		4D64CF7769D80F1835B30B17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E7A09331F325BD50FB3463 /* Pods-PayU-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayU-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		5E1D84EFEB106E3E5D723623 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60A7F778D0FB7061A20B4585 /* Pods-PayU-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayU-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		6FAD3F7C35AEF890AAE2F2A3 /* Pods-PayU-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayU-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		7030C1FA56A58D2A568D2E6F /* Pods_PayU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7403AB3E19CD5DDDB85EA4BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A1E387E69F0CC7C84F2B99 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FD391689BD4674F5175A08 /* Pods-PayU-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayU-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		9D0C01A17CB7BBF00BF69A8D /* Pods-PayU-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayU-dummy.m"; sourceTree = "<group>"; };
+		9D3016D9E257E84A66F2338F /* Pods-PayU-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayU-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		9E2036502204B53866CFFDC6 /* Pods-PayU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayU.release.xcconfig"; sourceTree = "<group>"; };
+		AF4CDEAD5969F68208B89388 /* Pods-PayU-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PayU-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		CC40C9C523DAD144EB6F9040 /* Pods-PayU-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayU-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		D3DF6C467700F2BD7F03DEC0 /* Pods-PayU-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayU-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		D63A5C37F1F33E11D1E24455 /* Pods-PayU-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayU-umbrella.h"; sourceTree = "<group>"; };
+		E281EC142DD24B0CDEFF4F10 /* Pods-PayU-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayU-frameworks.sh"; sourceTree = "<group>"; };
+		E42405DB8DB8529E948FB9FA /* Pods-PayU-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayU-resources.sh"; sourceTree = "<group>"; };
+		F24300B917B2C0F50979B18C /* Pods-PayU-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayU-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F25377A27905A4D579F03E4A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5E1B677A636E1E563A87DE1 /* Pods-PayU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayU.debug.xcconfig"; sourceTree = "<group>"; };
+		F76BB17DA502F6BF19657009 /* Pods-PayU-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PayU-Alamofire.modulemap"; sourceTree = "<group>"; };
+		F90D57C8E4DE487F7350ED87 /* Pods-PayU-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayU-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FAE4E7397D75A5763472D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7E4F53F3D2B335E7D8DC92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38704691CB3BE7F6F4AF0040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9082C09F10F16B5F9CC6F20A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7329192D9529C53ED614434B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4873D223842A80D859F054BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00052DA9AE61B76098C3B7F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A1E387E69F0CC7C84F2B99 /* Alamofire.framework */,
+				7030C1FA56A58D2A568D2E6F /* Pods_PayU.framework */,
+				01AADE673857B8544846D4A5 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1021C783C947FC86CA31B46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18F164000BE7AF03795C99C0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18F164000BE7AF03795C99C0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D84EFEB106E3E5D723623 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		39BF85968CEF6D796FA82B07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCC5B280BAA40DFECBD2AD56 /* Alamofire */,
+				78290EB5B5BC568733B8DE6B /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FAB4D8D0A5AACDB99231633 = {
+			isa = PBXGroup;
+			children = (
+				F25377A27905A4D579F03E4A /* Podfile */,
+				1021C783C947FC86CA31B46C /* Frameworks */,
+				39BF85968CEF6D796FA82B07 /* Pods */,
+				00052DA9AE61B76098C3B7F3 /* Products */,
+				EF293DE34DD1D802722E3EF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		78290EB5B5BC568733B8DE6B /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				451A76E443BEA711DBEBAA04 /* SwiftyJSON.swift */,
+				997CD2E56783288F16141D0F /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7C2DE621E7817EF7A9AD9795 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CBAF3569007D8464099CFB4 /* Info.plist */,
+				F76BB17DA502F6BF19657009 /* Pods-PayU-Alamofire.modulemap */,
+				1FF7300F08C90368B303FDE7 /* Pods-PayU-Alamofire.xcconfig */,
+				CC40C9C523DAD144EB6F9040 /* Pods-PayU-Alamofire-Private.xcconfig */,
+				60A7F778D0FB7061A20B4585 /* Pods-PayU-Alamofire-dummy.m */,
+				26C8EA4C3F3C304720C4B9F8 /* Pods-PayU-Alamofire-prefix.pch */,
+				6FAD3F7C35AEF890AAE2F2A3 /* Pods-PayU-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PayU-Alamofire";
+			sourceTree = "<group>";
+		};
+		997CD2E56783288F16141D0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7403AB3E19CD5DDDB85EA4BF /* Info.plist */,
+				AF4CDEAD5969F68208B89388 /* Pods-PayU-SwiftyJSON.modulemap */,
+				55E7A09331F325BD50FB3463 /* Pods-PayU-SwiftyJSON.xcconfig */,
+				D3DF6C467700F2BD7F03DEC0 /* Pods-PayU-SwiftyJSON-Private.xcconfig */,
+				49ED46F04241F3BE5084C609 /* Pods-PayU-SwiftyJSON-dummy.m */,
+				96FD391689BD4674F5175A08 /* Pods-PayU-SwiftyJSON-prefix.pch */,
+				9D3016D9E257E84A66F2338F /* Pods-PayU-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PayU-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		DF097518CD907A369A9ADF76 /* Pods-PayU */ = {
+			isa = PBXGroup;
+			children = (
+				4D64CF7769D80F1835B30B17 /* Info.plist */,
+				32AB4DA099DE0E06F28E0851 /* Pods-PayU.modulemap */,
+				F24300B917B2C0F50979B18C /* Pods-PayU-acknowledgements.markdown */,
+				F90D57C8E4DE487F7350ED87 /* Pods-PayU-acknowledgements.plist */,
+				9D0C01A17CB7BBF00BF69A8D /* Pods-PayU-dummy.m */,
+				3A03FEB46866952A00846D00 /* Pods-PayU-environment.h */,
+				E281EC142DD24B0CDEFF4F10 /* Pods-PayU-frameworks.sh */,
+				E42405DB8DB8529E948FB9FA /* Pods-PayU-resources.sh */,
+				D63A5C37F1F33E11D1E24455 /* Pods-PayU-umbrella.h */,
+				F5E1B677A636E1E563A87DE1 /* Pods-PayU.debug.xcconfig */,
+				9E2036502204B53866CFFDC6 /* Pods-PayU.release.xcconfig */,
+			);
+			name = "Pods-PayU";
+			path = "Target Support Files/Pods-PayU";
+			sourceTree = "<group>";
+		};
+		EF293DE34DD1D802722E3EF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF097518CD907A369A9ADF76 /* Pods-PayU */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FCC5B280BAA40DFECBD2AD56 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				1BC85026B286F7CE5E3E9C74 /* Alamofire.swift */,
+				7C2DE621E7817EF7A9AD9795 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F71CEAAE2FBE45D4680E68F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01D3F16380BD0A414ECE77 /* Pods-PayU-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A54522494162151E5BFF42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECABF1872A0512E58C9F5120 /* Pods-PayU-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9241CD7C194A3DE6B586B2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D747E5B47F3C3E739FC79280 /* Pods-PayU-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		99F8DFA6AD5A0EEAB9B553D4 /* Pods-PayU-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A4BD2F81EF284C9792AEE4 /* Build configuration list for PBXNativeTarget "Pods-PayU-Alamofire" */;
+			buildPhases = (
+				71E1A8AB5E52ABCABD18CAA2 /* Sources */,
+				38704691CB3BE7F6F4AF0040 /* Frameworks */,
+				1F71CEAAE2FBE45D4680E68F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PayU-Alamofire";
+			productName = "Pods-PayU-Alamofire";
+			productReference = 75A1E387E69F0CC7C84F2B99 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D61468413DA22781DCA0EDDC /* Pods-PayU-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC31BD63D0565BF8B2A91919 /* Build configuration list for PBXNativeTarget "Pods-PayU-SwiftyJSON" */;
+			buildPhases = (
+				4D584B320BCF1F02F8AA7F7F /* Sources */,
+				0FAE4E7397D75A5763472D04 /* Frameworks */,
+				63A54522494162151E5BFF42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PayU-SwiftyJSON";
+			productName = "Pods-PayU-SwiftyJSON";
+			productReference = 01AADE673857B8544846D4A5 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7AB68E7F0C3CA8BC839F83F /* Pods-PayU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8EDE9F3B9EFCA4FAB8520CA /* Build configuration list for PBXNativeTarget "Pods-PayU" */;
+			buildPhases = (
+				C3FF0C592BEF9019388F5F99 /* Sources */,
+				7329192D9529C53ED614434B /* Frameworks */,
+				A9241CD7C194A3DE6B586B2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8294776A369D2988E4500A40 /* PBXTargetDependency */,
+				3156D37BA66A2DF864B48D05 /* PBXTargetDependency */,
+			);
+			name = "Pods-PayU";
+			productName = "Pods-PayU";
+			productReference = 7030C1FA56A58D2A568D2E6F /* Pods_PayU.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87DB53348852E6080ED4C3C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 0F8DDB6A8CB0F6B7951BE7FD /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FAB4D8D0A5AACDB99231633;
+			productRefGroup = 00052DA9AE61B76098C3B7F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7AB68E7F0C3CA8BC839F83F /* Pods-PayU */,
+				99F8DFA6AD5A0EEAB9B553D4 /* Pods-PayU-Alamofire */,
+				D61468413DA22781DCA0EDDC /* Pods-PayU-SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D584B320BCF1F02F8AA7F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E6EED5921985EA3948FB56 /* Pods-PayU-SwiftyJSON-dummy.m in Sources */,
+				FEF0924FE56F459D0E761DBC /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E1A8AB5E52ABCABD18CAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0908BAB690EBF2618BCAE415 /* Alamofire.swift in Sources */,
+				64AE64E6D9129AEB7C10B311 /* Pods-PayU-Alamofire-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FF0C592BEF9019388F5F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FC6B06D3AB59C9F75CD914 /* Pods-PayU-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3156D37BA66A2DF864B48D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PayU-SwiftyJSON";
+			target = D61468413DA22781DCA0EDDC /* Pods-PayU-SwiftyJSON */;
+			targetProxy = BEAF1251EF4B91B37FB01085 /* PBXContainerItemProxy */;
+		};
+		8294776A369D2988E4500A40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PayU-Alamofire";
+			target = 99F8DFA6AD5A0EEAB9B553D4 /* Pods-PayU-Alamofire */;
+			targetProxy = 756E90811D1B256B29518780 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B7D348894C1DC8DF94914DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C0E8C9D0759131439B41F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4F796EF67148FCF565833944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DF6C467700F2BD7F03DEC0 /* Pods-PayU-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PayU-SwiftyJSON/Pods-PayU-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayU-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PayU-SwiftyJSON/Pods-PayU-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62B2F8F62AC1C1E2CCD656A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2036502204B53866CFFDC6 /* Pods-PayU.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PayU/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PayU/Pods-PayU.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PayU;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		992EB3C813CDC1E6F3171E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC40C9C523DAD144EB6F9040 /* Pods-PayU-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PayU-Alamofire/Pods-PayU-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayU-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PayU-Alamofire/Pods-PayU-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A32E37D013DCCD13541E7A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC40C9C523DAD144EB6F9040 /* Pods-PayU-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PayU-Alamofire/Pods-PayU-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayU-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PayU-Alamofire/Pods-PayU-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4B5FFD12BF998D0FDEE9B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DF6C467700F2BD7F03DEC0 /* Pods-PayU-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PayU-SwiftyJSON/Pods-PayU-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayU-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PayU-SwiftyJSON/Pods-PayU-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E78AA8D85E36C20102D32BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E1B677A636E1E563A87DE1 /* Pods-PayU.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PayU/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-PayU/Pods-PayU.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PayU;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F8DDB6A8CB0F6B7951BE7FD /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0E8C9D0759131439B41F1D /* Debug */,
+				1B7D348894C1DC8DF94914DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A4BD2F81EF284C9792AEE4 /* Build configuration list for PBXNativeTarget "Pods-PayU-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32E37D013DCCD13541E7A74 /* Debug */,
+				992EB3C813CDC1E6F3171E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8EDE9F3B9EFCA4FAB8520CA /* Build configuration list for PBXNativeTarget "Pods-PayU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78AA8D85E36C20102D32BA7 /* Debug */,
+				62B2F8F62AC1C1E2CCD656A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC31BD63D0565BF8B2A91919 /* Build configuration list for PBXNativeTarget "Pods-PayU-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B5FFD12BF998D0FDEE9B8A /* Debug */,
+				4F796EF67148FCF565833944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87DB53348852E6080ED4C3C7 /* Project object */;
+}
