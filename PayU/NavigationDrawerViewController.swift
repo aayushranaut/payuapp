@@ -10,7 +10,7 @@ import UIKit
 
 class NavigationDrawerViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    var menuItems:[String] = ["Portfolio", "Leaderboard"]
+    var menuItems:[String] = ["Home", "Portfolio", "Leaderboard"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,7 +59,7 @@ class NavigationDrawerViewController: UIViewController, UITableViewDataSource, U
 
             break;
         case 1:
-            var centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PortfolioController") as! ViewController
+            var centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PortfolioViewController") as! PortfolioViewController
             
             var centerNavController = UINavigationController(rootViewController: centerViewController)
             
@@ -69,7 +69,7 @@ class NavigationDrawerViewController: UIViewController, UITableViewDataSource, U
             
             break;
         case 2:
-            var centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("LeaderboardController") as! ViewController
+            var centerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("LeaderboardViewController") as! LeaderboardViewController
             
             var centerNavController = UINavigationController(rootViewController: centerViewController)
             
