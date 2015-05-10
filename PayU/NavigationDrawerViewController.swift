@@ -11,6 +11,7 @@ import UIKit
 class NavigationDrawerViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     var menuItems:[String] = ["Home", "Portfolio", "Leaderboard"]
+    var menuIcon:[String] = ["home_360.png", "nav_360.png", "leader_360.png"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +43,7 @@ class NavigationDrawerViewController: UIViewController, UITableViewDataSource, U
         var cell = tableView.dequeueReusableCellWithIdentifier("NavCell", forIndexPath: indexPath) as! CustomNavTableViewCell
         
         cell.menuItemLabel.text = menuItems[indexPath.row]
-        
+        cell.menuItemIcon.image = UIImage(named: menuIcon[indexPath.row])
         return cell
     }
     

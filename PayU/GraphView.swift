@@ -13,7 +13,7 @@ import UIKit
     @IBInspectable var startColor: UIColor = UIColor.redColor()
     @IBInspectable var endColor: UIColor = UIColor.greenColor()
     
-    var graphPoints:[Int] = [4, 2, 6, 4, 5, 8, 3]
+    internal var graphPoints:[Int] = [4, 2, 6, 4, 5, 8, 3]
     
     /*
      Only override drawRect: if you perform custom drawing.

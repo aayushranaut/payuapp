@@ -15,6 +15,10 @@
 		D52364DA1AFE7B3F00A49DBB /* PayUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52364D91AFE7B3F00A49DBB /* PayUTests.swift */; };
 		D52364E61AFE7F9800A49DBB /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D52364E51AFE7F9800A49DBB /* Entitlements.plist */; };
 		D55DE5E71AFEAD8300B73AA8 /* CustomStockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55DE5E61AFEAD8300B73AA8 /* CustomStockTableViewCell.swift */; };
+		D569AD661AFF0B3000BE7FB7 /* pp_bill_gates.png in Resources */ = {isa = PBXBuildFile; fileRef = D569AD651AFF0B3000BE7FB7 /* pp_bill_gates.png */; };
+		D569AD681AFF0DAC00BE7FB7 /* leader_360.png in Resources */ = {isa = PBXBuildFile; fileRef = D569AD671AFF0DAC00BE7FB7 /* leader_360.png */; };
+		D569AD6A1AFF100400BE7FB7 /* CustomPortfolioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D569AD691AFF100400BE7FB7 /* CustomPortfolioTableViewCell.swift */; };
+		D569AD6C1AFF111A00BE7FB7 /* home_360.png in Resources */ = {isa = PBXBuildFile; fileRef = D569AD6B1AFF111A00BE7FB7 /* home_360.png */; };
 		D59605AB1AFE859F00E18548 /* NavigationDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59605AA1AFE859F00E18548 /* NavigationDrawerViewController.swift */; };
 		D59605B71AFE870E00E18548 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D59605AF1AFE870E00E18548 /* MMDrawerBarButtonItem.m */; };
 		D59605B81AFE870E00E18548 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59605B11AFE870E00E18548 /* MMDrawerController.m */; };
@@ -52,6 +56,10 @@
 		D52364D91AFE7B3F00A49DBB /* PayUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayUTests.swift; sourceTree = "<group>"; };
 		D52364E51AFE7F9800A49DBB /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		D55DE5E61AFEAD8300B73AA8 /* CustomStockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStockTableViewCell.swift; sourceTree = "<group>"; };
+		D569AD651AFF0B3000BE7FB7 /* pp_bill_gates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pp_bill_gates.png; sourceTree = "<group>"; };
+		D569AD671AFF0DAC00BE7FB7 /* leader_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leader_360.png; sourceTree = "<group>"; };
+		D569AD691AFF100400BE7FB7 /* CustomPortfolioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPortfolioTableViewCell.swift; sourceTree = "<group>"; };
+		D569AD6B1AFF111A00BE7FB7 /* home_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_360.png; sourceTree = "<group>"; };
 		D59605AA1AFE859F00E18548 /* NavigationDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawerViewController.swift; sourceTree = "<group>"; };
 		D59605AD1AFE870E00E18548 /* PayU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayU-Bridging-Header.h"; sourceTree = "<group>"; };
 		D59605AE1AFE870E00E18548 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
@@ -140,6 +148,7 @@
 				D59605AA1AFE859F00E18548 /* NavigationDrawerViewController.swift */,
 				D59605C21AFE913F00E18548 /* PortfolioViewController.swift */,
 				D59605C41AFE915800E18548 /* LeaderboardViewController.swift */,
+				D569AD691AFF100400BE7FB7 /* CustomPortfolioTableViewCell.swift */,
 				D59605C61AFE979C00E18548 /* GraphView.swift */,
 				D59605C01AFE8DE500E18548 /* CustomNavTableViewCell.swift */,
 				D55DE5E61AFEAD8300B73AA8 /* CustomStockTableViewCell.swift */,
@@ -195,7 +204,10 @@
 		D59605BB1AFE8CF300E18548 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D569AD651AFF0B3000BE7FB7 /* pp_bill_gates.png */,
 				D59605BC1AFE8D3100E18548 /* nav_360.png */,
+				D569AD671AFF0DAC00BE7FB7 /* leader_360.png */,
+				D569AD6B1AFF111A00BE7FB7 /* home_360.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -283,10 +295,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D569AD6C1AFF111A00BE7FB7 /* home_360.png in Resources */,
 				D52364E61AFE7F9800A49DBB /* Entitlements.plist in Resources */,
 				D52364C91AFE7B3F00A49DBB /* Main.storyboard in Resources */,
 				D52364CE1AFE7B3F00A49DBB /* LaunchScreen.xib in Resources */,
+				D569AD661AFF0B3000BE7FB7 /* pp_bill_gates.png in Resources */,
 				D59605BD1AFE8D3100E18548 /* nav_360.png in Resources */,
+				D569AD681AFF0DAC00BE7FB7 /* leader_360.png in Resources */,
 				D52364CB1AFE7B3F00A49DBB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +372,7 @@
 				D59605C31AFE913F00E18548 /* PortfolioViewController.swift in Sources */,
 				D59605C51AFE915800E18548 /* LeaderboardViewController.swift in Sources */,
 				D55DE5E71AFEAD8300B73AA8 /* CustomStockTableViewCell.swift in Sources */,
+				D569AD6A1AFF100400BE7FB7 /* CustomPortfolioTableViewCell.swift in Sources */,
 				D59605C71AFE979C00E18548 /* GraphView.swift in Sources */,
 				D52364C61AFE7B3F00A49DBB /* ViewController.swift in Sources */,
 				D59605C11AFE8DE500E18548 /* CustomNavTableViewCell.swift in Sources */,
