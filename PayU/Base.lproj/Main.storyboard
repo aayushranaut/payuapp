@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uk0-QN-8vx">
@@ -68,8 +68,7 @@
                                         <exclude reference="cvF-BY-UU4"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="36" y="17" width="328" height="200"/>
+                                <variation key="widthClass=compact">
                                     <mask key="subviews">
                                         <include reference="ZSu-Ad-hNU"/>
                                         <include reference="8tr-Xd-2lM"/>
@@ -127,8 +126,7 @@
                                         <exclude reference="leC-TE-er2"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="16" y="225" width="368" height="311"/>
+                                <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="Y8h-LY-DuF"/>
                                         <include reference="leC-TE-er2"/>
@@ -195,6 +193,7 @@
                     <connections>
                         <outlet property="containerView" destination="uk0-QN-8vx" id="vor-fJ-UAG"/>
                         <outlet property="graphView" destination="2mZ-oT-wbk" id="IQx-7o-4rD"/>
+                        <outlet property="tableView" destination="JF9-2v-4Cn" id="tXe-M2-XQV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

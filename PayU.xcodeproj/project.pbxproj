@@ -25,6 +25,7 @@
 		D59605C31AFE913F00E18548 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59605C21AFE913F00E18548 /* PortfolioViewController.swift */; };
 		D59605C51AFE915800E18548 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59605C41AFE915800E18548 /* LeaderboardViewController.swift */; };
 		D59605C71AFE979C00E18548 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59605C61AFE979C00E18548 /* GraphView.swift */; };
+		F832EAB96D5ED1459E513EB6 /* Pods_PayU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D598C318D043342B1F4FCBF6 /* Pods_PayU.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72B45981E683FBD70644C453 /* Pods-PayU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayU/Pods-PayU.debug.xcconfig"; sourceTree = "<group>"; };
 		D52364BE1AFE7B3F00A49DBB /* PayU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52364C21AFE7B3F00A49DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D52364C31AFE7B3F00A49DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,8 @@
 		D59605C21AFE913F00E18548 /* PortfolioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
 		D59605C41AFE915800E18548 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 		D59605C61AFE979C00E18548 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		D598C318D043342B1F4FCBF6 /* Pods_PayU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9CB6C81AC225087CE761313 /* Pods-PayU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayU.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayU/Pods-PayU.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F832EAB96D5ED1459E513EB6 /* Pods_PayU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		056728BB694188D85C6E6569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D598C318D043342B1F4FCBF6 /* Pods_PayU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA7695E9B7011D3D35B20D34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72B45981E683FBD70644C453 /* Pods-PayU.debug.xcconfig */,
+				E9CB6C81AC225087CE761313 /* Pods-PayU.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D52364B51AFE7B3F00A49DBB = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +115,8 @@
 				D52364C01AFE7B3F00A49DBB /* PayU */,
 				D52364D61AFE7B3F00A49DBB /* PayUTests */,
 				D52364BF1AFE7B3F00A49DBB /* Products */,
+				BA7695E9B7011D3D35B20D34 /* Pods */,
+				056728BB694188D85C6E6569 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D52364DD1AFE7B3F00A49DBB /* Build configuration list for PBXNativeTarget "PayU" */;
 			buildPhases = (
+				67BBF4E9AA2D3E1D25BA77DB /* Check Pods Manifest.lock */,
 				D52364BA1AFE7B3F00A49DBB /* Sources */,
 				D52364BB1AFE7B3F00A49DBB /* Frameworks */,
 				D52364BC1AFE7B3F00A49DBB /* Resources */,
+				32069807745A9BE320798AC9 /* Embed Pods Frameworks */,
+				8644F7F5B71452CB1E81C344 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +299,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32069807745A9BE320798AC9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayU/Pods-PayU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67BBF4E9AA2D3E1D25BA77DB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8644F7F5B71452CB1E81C344 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayU/Pods-PayU-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D52364BA1AFE7B3F00A49DBB /* Sources */ = {
@@ -418,6 +493,7 @@
 		};
 		D52364DE1AFE7B3F00A49DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B45981E683FBD70644C453 /* Pods-PayU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -432,6 +508,7 @@
 		};
 		D52364DF1AFE7B3F00A49DBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9CB6C81AC225087CE761313 /* Pods-PayU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
