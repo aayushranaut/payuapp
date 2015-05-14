@@ -25,26 +25,6 @@
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2mZ-oT-wbk" customClass="GraphView" customModule="PayU" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSu-Ad-hNU">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="309" y="140" width="12" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20.1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tr-Xd-2lM">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="303" y="49" width="29" height="21"/>
-                                        </variation>
-                                    </label>
-                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="DiH-MW-maS"/>
@@ -59,20 +39,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="ZSu-Ad-hNU"/>
-                                        <exclude reference="8tr-Xd-2lM"/>
-                                    </mask>
                                     <mask key="constraints">
                                         <exclude reference="DiH-MW-maS"/>
                                         <exclude reference="cvF-BY-UU4"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
-                                    <mask key="subviews">
-                                        <include reference="ZSu-Ad-hNU"/>
-                                        <include reference="8tr-Xd-2lM"/>
-                                    </mask>
                                     <mask key="constraints">
                                         <include reference="DiH-MW-maS"/>
                                         <include reference="cvF-BY-UU4"/>
@@ -88,6 +60,7 @@
                                     </constraint>
                                     <constraint firstAttribute="height" constant="311" id="leC-TE-er2"/>
                                 </constraints>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="stockCell" id="ppj-HF-NKw" customClass="CustomStockTableViewCell" customModule="PayU" customModuleProvider="target">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -115,6 +88,7 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="nameLabel" destination="8fs-3I-lM2" id="2pf-Az-f7C"/>
                                         </connections>
@@ -215,6 +189,10 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Nqa-1S-hGw">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="GTh-OX-m3I"/>
+                                    <constraint firstAttribute="width" constant="400" id="SYY-yH-T5l"/>
+                                </constraints>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CustomPortfolioTableViewCell" id="cEb-IL-IFa" customClass="CustomPortfolioTableViewCell" customModule="PayU" customModuleProvider="target">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -268,8 +246,18 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="536"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="GTh-OX-m3I"/>
+                                        <exclude reference="SYY-yH-T5l"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" ambiguous="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                                    <mask key="constraints">
+                                        <include reference="GTh-OX-m3I"/>
+                                        <include reference="SYY-yH-T5l"/>
+                                    </mask>
                                 </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="akw-aS-Psb" id="5sc-d0-wA8"/>
@@ -278,14 +266,26 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gjc-jB-o6Y" firstAttribute="top" secondItem="Nqa-1S-hGw" secondAttribute="bottom" id="M64-HH-QZV"/>
+                            <constraint firstItem="Nqa-1S-hGw" firstAttribute="top" secondItem="uSo-Qu-cR1" secondAttribute="topMargin" id="cp4-KH-4Y1"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Nqa-1S-hGw"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="cp4-KH-4Y1"/>
+                                <exclude reference="M64-HH-QZV"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Nqa-1S-hGw"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="cp4-KH-4Y1"/>
+                                <include reference="M64-HH-QZV"/>
                             </mask>
                         </variation>
                     </view>
@@ -313,6 +313,10 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="aCG-HL-qyP">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="Pez-7e-4bl"/>
+                                    <constraint firstAttribute="width" constant="400" id="T30-NR-v5m"/>
+                                </constraints>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CustomLeaderboardTableViewCell" id="nRs-Ax-O40" customClass="CustomLeaderboardTableViewCell" customModule="PayU" customModuleProvider="target">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -365,8 +369,18 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="536"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Pez-7e-4bl"/>
+                                        <exclude reference="T30-NR-v5m"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" ambiguous="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                                    <mask key="constraints">
+                                        <include reference="Pez-7e-4bl"/>
+                                        <include reference="T30-NR-v5m"/>
+                                    </mask>
                                 </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="ks7-hG-A7w" id="Ld8-88-LMK"/>
@@ -375,14 +389,26 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7uC-zi-wfE" firstAttribute="top" secondItem="aCG-HL-qyP" secondAttribute="bottom" id="7HN-gt-apj"/>
+                            <constraint firstItem="aCG-HL-qyP" firstAttribute="top" secondItem="Nxk-XA-FfM" secondAttribute="topMargin" id="I8i-Ff-BNA"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="aCG-HL-qyP"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="I8i-Ff-BNA"/>
+                                <exclude reference="7HN-gt-apj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="aCG-HL-qyP"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="I8i-Ff-BNA"/>
+                                <include reference="7HN-gt-apj"/>
                             </mask>
                         </variation>
                     </view>
@@ -477,7 +503,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$771K" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t64-2p-w2n">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.2525209115" green="0.60973530531578934" blue="0.1769632558" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.25098039215686274" green="0.60784313725490191" blue="0.17647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="197" y="97" width="72" height="21"/>

@@ -22,6 +22,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        UIGraphicsBeginImageContext(self.view.bounds.size)
+        UIImage(named: "547561.png")!.drawInRect(self.view.bounds)
+        var blurImg: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        self.view.backgroundColor = UIColor(patternImage: blurImg.applyExtraLightEffect()!)
         
         Alamofire.request(.GET, "http://10.100.86.148/payuapi/public/api/v1/stock/trending")
             .responseJSON { (_, _, data, _) in
@@ -90,6 +96,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         var cell = tableView.dequeueReusableCellWithIdentifier("stockCell", forIndexPath: indexPath) as! CustomStockTableViewCell
         
         cell.nameLabel.text = stocks[indexPath.row]
+        cell.backgroundColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.4)
         
         return cell
     }

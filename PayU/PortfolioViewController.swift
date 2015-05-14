@@ -128,7 +128,7 @@ class PortfolioViewController: UIViewController, UITableViewDataSource, UITableV
             cell.stockProfit.textColor = UIColor.redColor()
         } else
         {
-            cell.stockProfit.textColor = UIColor.greenColor()
+            cell.stockProfit.textColor = UIColor(red: 64.0/255.0, green: 155.0/255.0, blue: 45.0/255.5, alpha: 1.0)
         }
         
         return cell;

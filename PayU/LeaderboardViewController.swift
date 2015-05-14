@@ -54,7 +54,7 @@ class LeaderboardViewController: UIViewController, UITableViewDataSource, UITabl
         cell.name.text = portfolioList[indexPath.row] as? String
         cell.money.text = String(stringInterpolationSegment: portfolioProfitList[indexPath.row])
 
-        cell.money.textColor = UIColor.greenColor()
+        cell.money.textColor = UIColor(red: 64.0/255.0, green: 155.0/255.0, blue: 45.0/255.5, alpha: 1.0)
 
         return cell;
     }

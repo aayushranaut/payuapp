@@ -14,6 +14,9 @@
 		D52364CE1AFE7B3F00A49DBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52364CC1AFE7B3F00A49DBB /* LaunchScreen.xib */; };
 		D52364DA1AFE7B3F00A49DBB /* PayUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52364D91AFE7B3F00A49DBB /* PayUTests.swift */; };
 		D52364E61AFE7F9800A49DBB /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D52364E51AFE7F9800A49DBB /* Entitlements.plist */; };
+		D54D1D631AFF469200E6D6D6 /* 547561.png in Resources */ = {isa = PBXBuildFile; fileRef = D54D1D621AFF469200E6D6D6 /* 547561.png */; };
+		D54D1D651AFF46D400E6D6D6 /* SwiftUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54D1D641AFF46D400E6D6D6 /* SwiftUIImage.swift */; };
+		D54D1D671AFF46EC00E6D6D6 /* 25253.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D54D1D661AFF46EC00E6D6D6 /* 25253.jpg */; };
 		D55DE5E71AFEAD8300B73AA8 /* CustomStockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55DE5E61AFEAD8300B73AA8 /* CustomStockTableViewCell.swift */; };
 		D569AD661AFF0B3000BE7FB7 /* pp_bill_gates.png in Resources */ = {isa = PBXBuildFile; fileRef = D569AD651AFF0B3000BE7FB7 /* pp_bill_gates.png */; };
 		D569AD681AFF0DAC00BE7FB7 /* leader_360.png in Resources */ = {isa = PBXBuildFile; fileRef = D569AD671AFF0DAC00BE7FB7 /* leader_360.png */; };
@@ -56,6 +59,9 @@
 		D52364D81AFE7B3F00A49DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D52364D91AFE7B3F00A49DBB /* PayUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayUTests.swift; sourceTree = "<group>"; };
 		D52364E51AFE7F9800A49DBB /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		D54D1D621AFF469200E6D6D6 /* 547561.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 547561.png; sourceTree = "<group>"; };
+		D54D1D641AFF46D400E6D6D6 /* SwiftUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIImage.swift; sourceTree = "<group>"; };
+		D54D1D661AFF46EC00E6D6D6 /* 25253.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25253.jpg; sourceTree = "<group>"; };
 		D55DE5E61AFEAD8300B73AA8 /* CustomStockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStockTableViewCell.swift; sourceTree = "<group>"; };
 		D569AD651AFF0B3000BE7FB7 /* pp_bill_gates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pp_bill_gates.png; sourceTree = "<group>"; };
 		D569AD671AFF0DAC00BE7FB7 /* leader_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leader_360.png; sourceTree = "<group>"; };
@@ -146,6 +152,7 @@
 				D59605BB1AFE8CF300E18548 /* images */,
 				D52364C31AFE7B3F00A49DBB /* AppDelegate.swift */,
 				D52364C51AFE7B3F00A49DBB /* ViewController.swift */,
+				D54D1D641AFF46D400E6D6D6 /* SwiftUIImage.swift */,
 				D52364C71AFE7B3F00A49DBB /* Main.storyboard */,
 				D59605AA1AFE859F00E18548 /* NavigationDrawerViewController.swift */,
 				D59605C21AFE913F00E18548 /* PortfolioViewController.swift */,
@@ -208,9 +215,11 @@
 			isa = PBXGroup;
 			children = (
 				D569AD651AFF0B3000BE7FB7 /* pp_bill_gates.png */,
+				D54D1D621AFF469200E6D6D6 /* 547561.png */,
 				D59605BC1AFE8D3100E18548 /* nav_360.png */,
 				D569AD671AFF0DAC00BE7FB7 /* leader_360.png */,
 				D569AD6B1AFF111A00BE7FB7 /* home_360.png */,
+				D54D1D661AFF46EC00E6D6D6 /* 25253.jpg */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -299,10 +308,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D569AD6C1AFF111A00BE7FB7 /* home_360.png in Resources */,
+				D54D1D671AFF46EC00E6D6D6 /* 25253.jpg in Resources */,
 				D52364E61AFE7F9800A49DBB /* Entitlements.plist in Resources */,
 				D52364C91AFE7B3F00A49DBB /* Main.storyboard in Resources */,
 				D52364CE1AFE7B3F00A49DBB /* LaunchScreen.xib in Resources */,
 				D569AD661AFF0B3000BE7FB7 /* pp_bill_gates.png in Resources */,
+				D54D1D631AFF469200E6D6D6 /* 547561.png in Resources */,
 				D59605BD1AFE8D3100E18548 /* nav_360.png in Resources */,
 				D569AD681AFF0DAC00BE7FB7 /* leader_360.png in Resources */,
 				D52364CB1AFE7B3F00A49DBB /* Images.xcassets in Resources */,
@@ -385,6 +396,7 @@
 				D59605B71AFE870E00E18548 /* MMDrawerBarButtonItem.m in Sources */,
 				D59605AB1AFE859F00E18548 /* NavigationDrawerViewController.swift in Sources */,
 				D52364C41AFE7B3F00A49DBB /* AppDelegate.swift in Sources */,
+				D54D1D651AFF46D400E6D6D6 /* SwiftUIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
